@@ -1,7 +1,13 @@
 # Google_Advanced_Data_Analytics__Course_5_Project__Automatidata_Regression_Analysis
 
-The primary objective of this project was to construct a Multiple Linear Regression model with the capability to accurately predict taxi fare amounts. This prediction was based on a set of pertinent independent variables, and was designed to be made prior to the commencement of a taxi cab ride.
+# Taxi Fare Prediction Using Multiple Linear Regression
+## Project Overview
+The primary objective of this project was to construct a Multiple Linear Regression model capable of accurately predicting taxi fare amounts. Predictions were based on a set of pertinent independent variables and were designed to be made prior to the commencement of a taxi cab ride.
 
-In the process of model development, it was observed that the coefficients which exhibited the strongest correlation with the dependent variable, fare_amount, were mean_duration and mean_distance. This finding was in line with expectations, as these variables intuitively have a direct impact on the fare amount.
+## Modeling and Evaluation
+During model development, it was observed that the coefficients with the strongest correlation to the dependent variable, `fare_amount`, were `mean_duration` and `mean_distance`. This finding aligned with expectations, as these variables intuitively have a direct impact on fare amounts.
 
-The R-squared value obtained was sufficiently high, indicating that the model was able to explain a significant proportion of the variance in the fare_amount. This result served as a strong indicator of the model’s robust performance and its effectiveness in predicting taxi fare amounts based on the given independent variables. Thus, the project successfully achieved its goal of building a reliable predictive model for taxi fares.
+The R-squared value obtained was sufficiently high, indicating that the model explained a significant proportion of the variance in `fare_amount`. This result demonstrates the model’s robust performance and effectiveness in predicting taxi fares based on the given independent variables.
+
+## Conclusion
+The project successfully achieved its goal of building a reliable predictive model for taxi fares, leveraging key features such as trip duration and distance to generate accurate fare estimates.
